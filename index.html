@@ -18,7 +18,7 @@
 <header>
     <div class="container">
     <nav class="list">
-        <a href="https://pavlodr.github.io/goit-markup-hw-05/index.html" class="link">WEB<span class="logo">STUDIO</span></a>
+        <a href="./index.html" class="link">WEB<span class="logo">STUDIO</span></a>
     
     <ul class="spc">
         <li class="spcli">
@@ -350,7 +350,7 @@
     <footer >
         <div class="ft">
             <div class="ftlogo">
-            <a href="https://pavlodr.github.io/goit-markup-hw-05/index.html" class="link">WEB<span class="logo">STUDIO</span> </a>
+            <a href="./index.html" class="link">WEB<span class="logo">STUDIO</span> </a>
             <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p> 
         </div>
         
@@ -395,16 +395,14 @@
         </div>
         <div class="subft">
             <p>Subscribe</p>
-            <div class="ftinp">
-                <input class="form-inp" type="email" name="email" />
-                <label class="ftlab">E-mail</label>      
-            </div>
-                           
-            <button class="subbut" type="submit">Subscribe
-                <svg width="24" height="20">
-                    <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-            </button>
+            <form class="ftinp">
+                <input class="form-inp" type="email" name="email" placeholder="E-mail" style="outline: 1px solid rgba(255, 255, 255, 0.3);"/>
+                <button class="subbut" type="submit">Subscribe
+                    <svg width="24" height="20">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
     </footer>
     
@@ -425,7 +423,7 @@
                             <label class="anklab">
                             Name
                             <div class="ankicon">
-                                <input type="text" name="name" autofocus="on"/>
+                                <input type="text" name="name" autofocus="on" style="outline: 1px solid rgba(33, 33, 33, 0.2);"/>
                             <svg width="12" height="12">
                                 <use href="./images/icons.svg#icon-man"></use>
                             </svg>
@@ -439,7 +437,7 @@
                             <label class="anklab">
                             Phone
                             <div class="ankicon">
-                                <input type="tel" name="phone"/>
+                                <input type="tel" name="phone" style="outline: 1px solid rgba(33, 33, 33, 0.2);"/>
                                 <svg width="13" height="12">
                                 <use href="./images/icons.svg#icon-tel"></use>
                             </svg>
@@ -453,7 +451,7 @@
                             <label class="anklab">
                             Email
                             <div class="ankicon">
-                                <input type="email" name="email" />
+                                <input type="email" name="email" style="outline: 1px solid rgba(33, 33, 33, 0.2);"/>
                                  <svg width="15" height="12">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
@@ -466,18 +464,18 @@
                         <div class="anketa">
                             <label class="anklab">
                             Comment
-                            <textarea name="Comment" placeholder="Text input"></textarea>
+                            <textarea name="Comment" placeholder="Text input" style="outline: 1px solid rgba(33, 33, 33, 0.2);"></textarea>
                             </label>
                         </div>
                     </li>
                 </ul>
                 
                     <label class="chebox">
-                        <input type="checkbox" checked />
+                        <input type="checkbox" class="chinp"/>
                         <svg width="10" height="8">
                             <use href="./images/icons.svg#icon-galka"></use>
                         </svg>
-                        I accept the terms and conditions of the Privacy Policy
+                        I accept the terms and conditions of the <a href="/" class="link-modal">Privacy Policy</a>
                     </label>
 
                     <button class="ankbut" type="submit">Send</button>
